@@ -1,0 +1,197 @@
+body
+{
+   margin: 0;
+   padding: 0;
+   background: #0E0E0E;
+}
+img
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.tubo
+{
+ position: absolute;
+ width: 560px;
+ height: 656px;
+ top: 40%;
+ left: 50%;
+ transform: translateX(-50%)translateY(-50%);
+
+}
+.world
+{
+ position: absolute;
+ width: 360px;
+ height: 420px;
+ top: 23%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+}
+.container
+{
+ position: absolute;
+ top: 108%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+}
+li
+{
+   display: inline-block;
+   padding-bottom: 50px;
+}
+li a 
+{
+ text-decoration: none;
+ display: inline-block;
+ color: #fff;
+ font-family: Verdana;
+ font-weight: lighter;
+ font-size: 20px;
+ padding: 0 20px;
+}
+
+.cool-link::after {
+   content:'' ;
+   display: block;
+   width: 0;
+   height: 2px;
+   background: #fff;
+   transition: width .3s;
+}
+.cool-link:hover:after{
+   width: 100%;
+   transition: width .3s;
+}
+
+.info {
+   text-decoration: none;
+ display: inline-block;
+ color: #fff;
+ font-family: Verdana;
+ font-weight: lighter;
+ font-size: 20px;
+ padding: 0 20px; 
+}
+
+.tubo-info{
+
+}
+
+p
+{
+   text-decoration: none;
+ display: inline-block;
+ color: #fff;
+ font-family: Verdana;
+ font-weight: lighter;
+ font-size: 20px;
+ padding: 0 20px;
+}
+
+.name
+{
+   animation: fadeAndScale .5s ease-in;
+   position: absolute;
+   top: 20%;
+   left: 70%;
+
+}
+
+@keyframes fadeAndScale {
+   from{
+      opacity: 0;
+
+   }
+   to{
+      opacity: 1;
+
+   }
+
+}
+
+.age
+{
+   animation: fadeAndScale .6s ease-in;
+   position: absolute;
+   top: 25%;
+   left: 70%;
+
+}
+
+.height
+{
+   animation: fadeAndScale .7s ease-in;
+   position: absolute;
+   top: 30%;
+   left: 70%;
+
+}
+
+.mood
+{
+   animation: fadeAndScale .8s ease-in;
+   position: absolute;
+   top: 35%;
+   left: 70%;
+
+}
+
+.aboutText{
+   animation: fadeAndScale .9s ease-in;
+   position: absolute;
+   top: 76%;
+}
+
+.wrld1{
+    animation: fadeAndScale .7s ease-in;
+   position: absolute;
+   top: 55%;
+   left: 20%;
+}
+
+.wrld2{
+    animation: fadeAndScale .8s ease-in;
+   position: absolute;
+   top: 60%;
+
+
+}
+
+.wrld3{
+    animation: fadeAndScale .9s ease-in;
+   position: absolute;
+   top: 85%;
+}
+
+.power1{
+   animation: fadeAndScale .9s ease-in;
+   position: absolute;
+   top: 68%;
+}
+
+iframe{
+   position: absolute;
+   top: 46%;
+   left: 5%;
+}
+
+
+.viewport{
+   top: 50%;
+}
+
+.pmv{
+   position: center;
+   top: 20%;
+   left: 27%;
+}
+
+
+
+
+
+
+
